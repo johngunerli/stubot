@@ -1,0 +1,11 @@
+.env
+target/
+Cargo.lock
+**/*.rs.bk
+.DS_Store
+.stubot/
+.stubot_history
+.grokbot_history
+*.log
+.idea/
+.vscode/

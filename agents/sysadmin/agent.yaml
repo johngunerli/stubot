@@ -1,0 +1,10 @@
+color: yellow
+image: stubot-sysadmin:latest
+workspace_mode: rw
+network: true
+default: false
+tools:
+  - bash_exec
+  - file_read
+  - file_write
+  - grep_search

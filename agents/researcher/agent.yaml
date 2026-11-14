@@ -1,0 +1,10 @@
+color: green
+image: stubot-base:latest
+workspace_mode: ro
+network: true
+default: false
+tools:
+  - web_fetch
+  - web_search
+  - file_read
+  - grep_search

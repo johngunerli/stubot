@@ -1,0 +1,9 @@
+color: magenta
+image: stubot-base:latest
+workspace_mode: ro
+network: false
+default: false
+tools:
+  - file_read
+  - grep_search
+  - bash_exec

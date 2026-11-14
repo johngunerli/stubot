@@ -1,0 +1,11 @@
+color: cyan
+image: stubot-base:latest
+workspace_mode: rw
+network: false
+default: false
+tools:
+  - bash_exec
+  - file_read
+  - file_write
+  - file_patch
+  - grep_search

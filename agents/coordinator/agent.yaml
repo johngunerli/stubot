@@ -1,0 +1,9 @@
+color: bright_blue
+image: stubot-base:latest
+workspace_mode: rw
+network: true
+default: true
+tools:
+  - delegate_to_agent
+  - file_read
+  - grep_search
